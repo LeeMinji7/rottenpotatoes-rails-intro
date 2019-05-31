@@ -55,4 +55,9 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+  
+  # add to routes.rb, just before or just after 'resources :movies' :
+
+  # Route that posts 'Search TMDb' form
+  post '/movies/search_tmdb'
 end
